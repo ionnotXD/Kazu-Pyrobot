@@ -18,10 +18,10 @@ from PyroKar.helpers.misc import create_botlog, heroku
 from PyroKar.modules import ALL_MODULES
 
 MSG_ON = """
-💢 **PyroKar-Userbot Udah Aktif** 💢
+✨ **PyroZu-Userbot Udah Aktif** ✨
 ╼┅━━━━━━━━━━╍━━━━━━━━━━┅╾
 ❍▹ **Userbot Version -** `{}`
-❍▹ **Ketik** `{}kar` **untuk Mengecheck Bot**
+❍▹ **Ketik** `{}zu` **untuk Mengecheck Bot**
 ╼┅━━━━━━━━━━╍━━━━━━━━━━┅╾
 """
 
@@ -49,7 +49,7 @@ async def main():
             )
         except Exception as a:
             LOGGER("main").warning(a)
-    LOGGER("PyroKar").info(f"PyroKar-UserBot v{BOT_VER} [👑 BERHASIL DIAKTIFKAN YA KONTOL! 👑]")
+    LOGGER("PyroKar").info(f"PyroZu-UserBot v{BOT_VER} [✨ BERHASIL DIAKTIFKAN YA SAYANG! ✨]")
     if not str(BOTLOG_CHATID).startswith("-100"):
         await create_botlog(bot1)
     await idle()
@@ -57,7 +57,7 @@ async def main():
 
 
 if __name__ == "__main__":
-    LOGGER("PyroKar").info("Starting PyroKar-UserBot")
+    LOGGER("PyroKar").info("Starting PyroZu-UserBot")
     install()
     heroku()
     LOOP.run_until_complete(main())
