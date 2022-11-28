@@ -1,6 +1,6 @@
 {
-  "name": "The-Userbot",
-  "description": "[The-Userbot] adalah userbot Telegram modular yang berjalan di Python3 dengan Library Pyrogram.",
+  "name": "PyroZu-Userbot",
+  "description": "[PyroZu-Userbot] adalah userbot Telegram modular yang berjalan di Python3 dengan Library Pyrogram.",
   "stack": "heroku-22",
   "env": {
     "API_ID": {
@@ -12,7 +12,7 @@
       "required": true
     },
     "STRING_SESSION1": {
-      "description": "Dapatkan String Session Pyrogram di Grup » https://t.me/obrolansuar » Lalu ketik #string",
+      "description": "Dapatkan String Session Pyrogram di Grup » https://t.me/kazusupportgrp » Lalu ketik #string",
       "required": true
     },
     "STRING_SESSION2": {
