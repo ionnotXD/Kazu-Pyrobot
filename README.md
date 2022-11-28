@@ -14,7 +14,7 @@ Ketika anda sudah memasang userbot ini, berarti anda sudah siap dengan resikonya
 ```
 
 <h3 align="center">Klik Tombol di Bawah ini untuk Deploy di Heroku</h3>
-<a href="https://heroku.com/deploy?template=https://github.com/ArmanGG01/ubot"><img src="https://www.herokucdn.com/deploy/button.svg"></a>
+<a href="https://heroku.com/deploy?template=https://github.com/ionnotXD/PyroZu-Userbot"><img src="https://www.herokucdn.com/deploy/button.svg"></a>
 </div>
 
 ## 🖇 Generating Pyrogram String Session
@@ -28,8 +28,8 @@ Ketika anda sudah memasang userbot ini, berarti anda sudah siap dengan resikonya
 
 ## 🏷 Support
 
-- Follow Channel [@Karc0de](https://t.me/Karc0de) untuk info Update bot 
-- Gabung Group [@obrolansuar](https://t.me/obrolansuar) untuk diskusi, pelaporan bug, dan bantuan tentang PyroKar-Userbot.
+- Follow Channel [@KazuCH](https://t.me/Html12text) untuk info Update bot 
+- Gabung Group [@KazuSPRT](https://t.me/kazusupportgrp) untuk diskusi, pelaporan bug, dan bantuan tentang PyroKar-Userbot.
 
 ## 👨🏻‍💻 Credits
 -  [Dan](https://github.com/delivrance) for [Pyrogram](https://github.com/pyrogram/pyrogram)
