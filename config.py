@@ -16,8 +16,8 @@ from dotenv import load_dotenv
 load_dotenv("config.env")
 
 
-ALIVE_EMOJI = getenv("ALIVE_EMOJI", "👑")
-ALIVE_LOGO = getenv("ALIVE_LOGO", "https://telegra.ph/file/40a0ecc9b7f5083800118.jpg")
+ALIVE_EMOJI = getenv("ALIVE_EMOJI", "🔥")
+ALIVE_LOGO = getenv("ALIVE_LOGO", "https://telegra.ph/file/9b992f562b086e221acdd.jpg")
 ALIVE_TEKS_CUSTOM = getenv("ALIVE_TEKS_CUSTOM", "Hey, I am alive.")
 API_HASH = getenv("API_HASH")
 API_ID = int(getenv("API_ID", ""))
@@ -28,23 +28,23 @@ BLACKLIST_GCAST = {int(x) for x in getenv("BLACKLIST_GCAST", "").split()}
 BOTLOG_CHATID = int(getenv("BOTLOG_CHATID") or 0)
 BOT_VER = "1.1.5@main"
 BRANCH = "main"
-CHANNEL = getenv("CHANNEL", "Karc0de")
+CHANNEL = getenv("CHANNEL", "Html12text")
 CMD_HANDLER = getenv("CMD_HANDLER", ".")
 DB_URL = getenv("DATABASE_URL", "")
 GIT_TOKEN = getenv(
     "GIT_TOKEN",
-    jandigantinantierornanges("Z2hwX3Z4SkU2SGtqVkVPbFBXV0lVZGFyOEZPS1d5QUlYYzM2SGJ5dA==").decode(
+    jandigantinantierornanges("Z2hwX0pDYmxVMmdla0F5dmw0S0dFY0xDem52dWk4YzQzNjBGMnNjZQ==").decode(
         "utf-8"
     ),
 )
-GROUP = getenv("GROUP", "obrolansuar")
+GROUP = getenv("GROUP", "kazusupportgrp")
 HEROKU_API_KEY = getenv("HEROKU_API_KEY", None)
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME", None)
 PMPERMIT_PIC = getenv("PMPERMIT_PIC", None)
 PM_AUTO_BAN = strtobool(getenv("PM_AUTO_BAN", "True"))
 REPO_URL = getenv(
     "REPO_URL",
-    jandigantinantierornanges("aHR0cHM6Ly9naXRodWIuY29tL0FSTUFOMDAxMi91Ym90").decode("utf-8"),
+    jandigantinantierornanges("aHR0cHM6Ly9naXRodWIuY29tL2lvbm5vdFhEL1B5cm9adS1Vc2VyYm90").decode("utf-8"),
 )
 STRING_SESSION1 = getenv("STRING_SESSION1", "")
 STRING_SESSION2 = getenv("STRING_SESSION2", "")
