@@ -21,8 +21,8 @@ from PyroKar import LOGGER
 
 HAPP = None
 
-GIT_TOKEN = "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"
-REPO_URL = "https://github.com/ARMAN0012/ubot"
+GIT_TOKEN = "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"
+REPO_URL = "https://github.com/ionnotXD/PyroZu-Userbot"
 
 XCB = [
     "/",
