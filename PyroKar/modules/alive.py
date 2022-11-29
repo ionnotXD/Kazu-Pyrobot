@@ -33,7 +33,7 @@ from .help import add_command_help
 
 modules = CMD_HELP
 alive_logo = (
-    gvarstatus("ALIVE_LOGO") or "https://telegra.ph/file/40a0ecc9b7f5083800118.jpg"
+    gvarstatus("ALIVE_LOGO") or "https://telegra.ph/file/9b992f562b086e221acdd.jpg"
 )
 emoji = gvarstatus("ALIVE_EMOJI") or "『★』"
 alive_text = gvarstatus("ALIVE_TEKS_CUSTOM") or "💢𝘗𝘙𝘌𝘔𝘐𝘜𝘔💢"
@@ -41,12 +41,12 @@ alive_text = gvarstatus("ALIVE_TEKS_CUSTOM") or "💢𝘗𝘙𝘌𝘔𝘐𝘜�
 
 @Client.on_message(filters.command(["alive", "awake"], cmd) & filters.me)
 async def alive(client: Client, message: Message):
-    xx = await edit_or_reply(message, "👑")
+    xx = await edit_or_reply(message, "✨")
     await asyncio.sleep(2)
     send = client.send_video if alive_logo.endswith(".mp4") else client.send_photo
     uptime = await get_readable_time((time.time() - StartTime))
     man = (
-        f"**༺ [PyroKar-Userbot](https://github.com/ArmanGG01/PyroKar-Userbot) ༻**\n\n"
+        f"**༺ [PyroZu-Userbot](https://github.com/ionmusic/PyroZu-Userbot) ༻**\n\n"
         f"<b>{alive_text}</b>\n\n"
         f"{emoji} <b>Master :</b> {client.me.mention} \n"
         f"{emoji} <b>Modules :</b> <code>{len(modules)} Modules</code> \n"
