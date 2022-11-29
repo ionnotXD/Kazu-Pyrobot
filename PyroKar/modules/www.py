@@ -114,8 +114,8 @@ async def ramping(client: Client, message: Message):
     end = datetime.now()
     duration = (end - start).microseconds / 1000
     await message.reply_text(
-        "PyRokar-Userbot\n"
-        "ㅤㅤStatus : Mengentot!\n"
+        "PyroZu-Userbot\n"
+        "ㅤㅤStatus : Actived!\n"
         f"ㅤㅤㅤㅤping bot:"
         f"`%sms` \n"
         f"ㅤㅤㅤㅤmodules:</b> <code>{len(modules)} Modules</code> \n"
