@@ -107,7 +107,7 @@ async def kping(client: Client, message: Message):
         f"└• **Owner :** {client.me.mention}" % (duration)
     )
 
-@Client.on_message(filters.command("kar", cmd) & filters.me)
+@Client.on_message(filters.command("zu", cmd) & filters.me)
 async def ramping(client: Client, message: Message):
     uptime = await get_readable_time((time.time() - StartTime))
     start = datetime.now()
