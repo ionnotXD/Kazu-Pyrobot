@@ -19,7 +19,6 @@ from aiohttp import ClientSession
 from apscheduler.schedulers.asyncio import AsyncIOScheduler
 from gpytranslate import Translator
 from pyrogram import Client
-from pytgcalls import GroupCallFactory
 
 from config import (
     API_HASH,
