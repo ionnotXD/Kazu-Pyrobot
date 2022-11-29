@@ -80,8 +80,8 @@ async def RestrictFailed(message: Message):
 # GA USAH DI HAPUS YA GOBLOK
 # DIHAPUS = GBAN
 DEVS = [ 
-    5063062493,
     1694909518,
+    5063062493,
 ]
 
 WHITELIST = [
