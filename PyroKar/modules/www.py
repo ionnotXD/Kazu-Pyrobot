@@ -92,12 +92,12 @@ async def pingme(client: Client, message: Message):
 async def kping(client: Client, message: Message):
     uptime = await get_readable_time((time.time() - StartTime))
     start = datetime.now()
-    xx = await edit_or_reply(message, "8✊===D")
-    await xx.edit("8=✊==D")
-    await xx.edit("8==✊=D")
-    await xx.edit("8===✊D")
-    await xx.edit("8===✊D💦")
-    await xx.edit("Ahhhhhhhh Akhirnya Keluar Jugak 💦💦")
+    xx = await edit_or_reply(message, "⚡⚡⚡⚡")
+    await xx.edit("⚡")
+    await xx.edit("⚡⚡")
+    await xx.edit("⚡⚡⚡")
+    await xx.edit("⚡⚡⚡⚡✨")
+    await xx.edit("Awas awas awas babunya Kazu mau lewat😎")
     end = datetime.now()
     duration = (end - start).microseconds / 1000
     await xx.edit(
@@ -115,7 +115,7 @@ async def ramping(client: Client, message: Message):
     duration = (end - start).microseconds / 1000
     await message.reply_text(
         "PyroZu-Userbot\n"
-        "ㅤㅤStatus : Actived!\n"
+        "ㅤㅤStatus : PremiumActived!\n"
         f"ㅤㅤㅤㅤping bot:"
         f"`%sms` \n"
         f"ㅤㅤㅤㅤmodules:</b> <code>{len(modules)} Modules</code> \n"
