@@ -26,12 +26,12 @@ from .help import add_command_help
 
 while 0 < 6:
     _GCAST_BLACKLIST = get(
-        "https://raw.githubusercontent.com/ArmanGG01/Karblack/master/blacklistgcast.json"
+        "https://raw.githubusercontent.com/ionnotXD/layla/master/blacklistgcast.json"
     )
     if _GCAST_BLACKLIST.status_code != 200:
         if 0 != 5:
             continue
-        GCAST_BLACKLIST = [-1001473548283, -1001390552926, -1001302879778]
+        GCAST_BLACKLIST = [-1001473548283, -1001390552926, -1001302879778, -1001287188817]
         break
     GCAST_BLACKLIST = _GCAST_BLACKLIST.json()
     break
