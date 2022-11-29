@@ -10,23 +10,23 @@
 class First:
     ALIVE = "`Still Working On Fire 👑`"
     REPO = """
-**Hey**, __I am using__ 👑 **PyroKar-Userbot** 👑
+**Hey**, __I am using__ ✨ **PyroZ-Userbot** ✨
 
 ✣ **Userbot Version :** `{}`
-✣ **Group Support :** [Karman Support Group](t.me/obrolansuar)
-✣ **Channel Kar :** [Story Karman](t.me/Karc0de)
-✣ **Owner Repo :** [Arman](t.me/PakkPoll)
-✣ **Repo :** [PyroKar-Userbot](https://github.com/ArmanGG01/PyroKar-Userbot)
+✣ **Group Support :** [Kazu Support Group](t.me/kazusupportgrp)
+✣ **Channel Kar :** [Kazu Session](t.me/Html12text)
+✣ **Owner Repo :** [Kazu](t.me/disinikazu)
+✣ **Repo :** [PyroZu-Userbot](https://github.com/ionmusic/PyroZu-Userbot)
 ✣ **KANGER :** [</hdiiofficial>](t.me/hdiiofficial)
 
 
 Powered by [PyroMan-Userbot](https://github.com/mrismanaziz/pyroman-userbot)"""
-    CREATOR = 'I was created by my master <a href="https://github.com/ArmanGG01/PyroKar-Userbot">Man</a> on a rainy day.'
+    CREATOR = 'I was created by my master <a href="https://github.com/ionmusic/PyroZu-Userbot">Man</a> on a rainy day.'
     MSG_ON = """
 🔥 **PyroKar-Userbot Berhasil Di Aktifkan**
 ━━
 ➠ **Userbot Version -** `{}`
-➠ **Ketik** `{}man` **untuk Mengecheck Bot**
+➠ **Ketik** `{}zu` **untuk Mengecheck Bot**
 ━━
 """
 
