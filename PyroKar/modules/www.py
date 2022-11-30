@@ -115,14 +115,14 @@ async def ramping(client: Client, message: Message):
     duration = (end - start).microseconds / 1000
     await message.reply_text(
         "PyroZu-Userbot\n"
-        "ㅤㅤStatus : PremiumActived!\n"
-        f"ㅤㅤㅤㅤping bot:"
+        "ㅤㅤStatus : Premium Actived!\n"
+        f"ㅤㅤㅤㅤPing Bot:"
         f"`%sms` \n"
-        f"ㅤㅤㅤㅤmodules:</b> <code>{len(modules)} Modules</code> \n"
-        f"ㅤㅤㅤㅤbot version: {BOT_VER} \n"
-        f"ㅤㅤㅤㅤbot uptime:"
+        f"ㅤㅤㅤㅤModules:</b> <code>{len(modules)} Modules</code> \n"
+        f"ㅤㅤㅤㅤBot Version: {BOT_VER} \n"
+        f"ㅤㅤㅤㅤBot Uptime:"
         f"`{uptime}` \n"
-        f"ㅤㅤㅤㅤbranch: {brch} \n\n"
+        f"ㅤㅤㅤㅤBranch: {brch} \n\n"
         f"ㅤㅤㅤㅤOwner : {client.me.mention}" % (duration)
     )
 
