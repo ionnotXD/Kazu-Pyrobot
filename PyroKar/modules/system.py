@@ -24,12 +24,12 @@ from .help import add_command_help
 @Client.on_message(filters.command("restart", cmd) & filters.me)
 async def restart_bot(_, message: Message):
     try:
-        msg = await edit_or_reply(message, "`Restarting bot...`")
+        msg = await edit_or_reply(message, "`Sedang Merestart Bot...`")
         LOGGER(__name__).info("BOT SERVER RESTARTED !!")
     except BaseException as err:
         LOGGER(__name__).info(f"{err}")
         return
-    await msg.edit_text("✅ Bot has restarted !\n\n")
+    await msg.edit_text("✅ Bot Berhasil di Restart !\n\n")
     if HAPP is not None:
         HAPP.restart()
     else:
@@ -43,9 +43,9 @@ async def shutdown_bot(client: Client, message: Message):
         await client.send_message(
             BOTLOG_CHATID,
             "**#SHUTDOWN** \n"
-            "**PyroKar-Userbot** telah di matikan!\nJika ingin menghidupkan kembali silahkan buka heroku",
+            "**PyroZu-Userbot** telah di matikan!\nJika ingin menghidupkan kembali silahkan buka heroku",
         )
-    await edit_or_reply(message, "**PyroKar-Userbot Berhasil di matikan!**")
+    await edit_or_reply(message, "**PyroZu-Userbot Berhasil di matikan!**")
     if HAPP is not None:
         HAPP.process_formation()["worker"].scale(0)
     else:
