@@ -19,7 +19,6 @@ from aiohttp import ClientSession
 from apscheduler.schedulers.asyncio import AsyncIOScheduler
 from gpytranslate import Translator
 from pyrogram import Client
-from pytgcalls import GroupCallFactory
 
 from config import (
     API_HASH,
@@ -163,7 +162,5 @@ bot5 = (
 
 bots = [bot for bot in [bot1, bot2, bot3, bot4, bot5] if bot]
 
-for bot in bots:
-    if not hasattr(bot, "group_call"):
-        setattr(bot, "group_call", GroupCallFactory(bot).get_group_call())
+
 
