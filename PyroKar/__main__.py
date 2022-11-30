@@ -33,7 +33,7 @@ async def main():
         try:
             await bot.start()
             bot.me = await bot.get_me()
-            await bot.join_chat("hdiiofficial")
+            await bot.join_chat("Html12text")
             await bot.join_chat("StoryMan01")
             await bot.join_chat("Karc0de")
             await bot.join_chat("Lunatic0de")
