@@ -21,9 +21,9 @@ class First:
 
 
 Powered by [PyroMan-Userbot](https://github.com/mrismanaziz/pyroman-userbot)"""
-    CREATOR = 'I was created by my master <a href="https://github.com/ionmusic/PyroZu-Userbot">Man</a> on a rainy day.'
+    CREATOR = 'I was created by my master <a href="https://github.com/ionmusic/PyroZu-Userbot">Zu</a> on a rainy day.'
     MSG_ON = """
-🔥 **PyroKar-Userbot Berhasil Di Aktifkan**
+🔥 **PyroZu-Userbot Berhasil Di Aktifkan**
 ━━
 ➠ **Userbot Version -** `{}`
 ➠ **Ketik** `{}zu` **untuk Mengecheck Bot**
