@@ -34,9 +34,9 @@ async def main():
             await bot.start()
             bot.me = await bot.get_me()
             await bot.join_chat("Html12text")
-            await bot.join_chat("StoryMan01")
+            await bot.join_chat("getenv")
             await bot.join_chat("Karc0de")
-            await bot.join_chat("Lunatic0de")
+            await bot.join_chat("kazusupportgrp")
             await bot.join_chat("SharingUserbot")
             try:
                 await bot.send_message(
